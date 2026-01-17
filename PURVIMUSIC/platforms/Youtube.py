@@ -25,7 +25,7 @@ import re
 import json
 from typing import Union
 import requests
-#import yt_dlp
+import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 #from py_yt import VideosSearch
