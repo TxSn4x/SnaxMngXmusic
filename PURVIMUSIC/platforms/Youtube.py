@@ -29,13 +29,13 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from py_yt import VideosSearch
-from SONALI.utils.database import is_on_off
-from SONALI import app
-from SONALI.utils.formatters import time_to_seconds
+from PURVIMUSIC.utils.database import is_on_off
+from PURVIMUSIC import app
+from PURVIMUSIC.utils.formatters import time_to_seconds
 import random
 import logging
 import aiohttp
-from SONALI import LOGGER
+from PURVIMUSIC import LOGGER
 from urllib.parse import urlparse
 
 import asyncio
@@ -45,9 +45,9 @@ from typing import Union
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from SONALI.utils.formatters import time_to_seconds
+from PURVIMUSIC.utils.formatters import time_to_seconds
 import aiohttp
-from SONALI import LOGGER
+from PURVIMUSIC import LOGGER
 
 try:
     from py_yt import VideosSearch
